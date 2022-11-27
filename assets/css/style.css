@@ -8,11 +8,35 @@
 
 body {
     font-family: Tangerine, sans-serif;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #75BA75, #45A57F);
+}
+
+#logo {
+    font-size: 500%;
+    color: inherit;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Navigation links*/
 #menu {
     font-family: Roboto-Slab, sans-serif;
-    font-size: 120;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
 }
+
+#menu li {  
+    display: inline;
+    margin: 20px;
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
