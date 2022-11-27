@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Tangerine:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Tangerine, sans-serif;
+}
+
+/* Navigation links*/
+#menu {
+    font-family: Roboto-Slab, sans-serif;
+    font-size: 120;
+    letter-spacing: 2px;
+}
