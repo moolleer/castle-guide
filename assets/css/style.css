@@ -17,6 +17,12 @@ h2, h3, h4 {
     font-family: Robot-Slab, sans-serif;
 }
 
+hr {
+    border-top: 2px solid #fff;
+    width: 55%;
+    margin: 5px;
+}
+
 #logo {
     font-size: 550%;
     color: inherit;
@@ -57,6 +63,12 @@ h2, h3, h4 {
 /* Hero image*/
 
 #hero-outer {
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;   
+}
+
+#hero-outer-about {
     overflow: hidden;
     margin-top: 20px;
     position: relative;   
@@ -165,7 +177,7 @@ footer {
 
 #about-text {
     font-family: Roboto-Slab, sans-serif;
-    background-color: rgba(62, 74, 61, 0.7);
+    background-color: rgba(62, 74, 61, 0.9);
     width: 60%;
     height: 60%;
 
@@ -173,6 +185,15 @@ footer {
     right: 20%;
 
     position: absolute;
+}
+
+#about-text h2, p {
+    margin: 10px;
+}
+
+#about-text p {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
