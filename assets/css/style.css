@@ -119,15 +119,15 @@ hr {
     height: 150px;
     border-radius: 50%;
     
-    padding-top: 80px;
+    padding-top: 60px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-left: 20px;
 
     background-color: rgba(69, 165, 127, .5);
 
-    top: 120px;
-    left: 350px;
+    top: 10%;
+    left: 20%;
 
     position: absolute;
 }
@@ -253,5 +253,10 @@ footer {
     text-transform: uppercase;
 }
 
+/* Castles styles*/
 
-
+#castles {
+    height: 900px;
+    width: 100%;
+    
+}
