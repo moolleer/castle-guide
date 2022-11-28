@@ -14,13 +14,15 @@ body {
 }
 
 #logo {
-    font-size: 500%;
+    font-size: 550%;
     color: inherit;
+    text-shadow: 2px 2px 4px #004E11;
     text-align: center;
     margin-top: 20px;
 }
 
 /* Navigation links*/
+
 #menu {
     font-family: Roboto-Slab, sans-serif;
     letter-spacing: 1px;
@@ -38,6 +40,7 @@ body {
 #menu a {
     text-decoration: none;
     color: inherit;
+    text-shadow: 2px 2px 4px #004E11;
 }
 
 #menu a:hover {
@@ -48,5 +51,40 @@ body {
 .active {
     border-bottom: 2px solid #1E8F83;
 }
+
+/* Hero image*/
+
+#hero-outer {
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;   
+}
+#hero-image {
+    height: 900px;
+    background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
+    background-size: cover;
+    background-position: top;
+
+    /* animates zoom out effect on loading page*/
+    
+    animation-name: hero-zoom-out;
+    animation-duration: 6s;
+    animation-direction: reverse;
+}
+
+/* creates the level of zoom out for hereo image*/
+
+@keyframes hero-zoom-out {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
+
 
 
