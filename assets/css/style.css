@@ -87,6 +87,13 @@ h2, h3, h4 {
     }
 }
 
+#hero-image-no-zoom {
+    height: 900px;
+    background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
+    background-size: cover;
+    background-position: top;
+}
+
 /*Text for the hero image*/
 
 #image-text {
@@ -146,8 +153,7 @@ footer {
 
 #contact {
     text-align: center;
-    margin-top: 2%;
-    
+    margin-top: 2%; 
 }
 
 #contact h3, h4 {
@@ -155,6 +161,19 @@ footer {
     text-shadow: 2px 2px 4px #3E4A3D;
 }
 
+/* About us text*/
+
+#about-text {
+    font-family: Roboto-Slab, sans-serif;
+    background-color: rgba(62, 74, 61, 0.7);
+    width: 60%;
+    height: 60%;
+
+    bottom: 30%;
+    right: 20%;
+
+    position: absolute;
+}
 
 
 
