@@ -13,7 +13,7 @@ body {
     background-image: linear-gradient(to bottom right, #75BA75, #1E8F83); 
 }
 
-h2, h3, h4 {
+h2, h3, h4, p {
     font-family: Robot-Slab, sans-serif;
 }
 
@@ -255,8 +255,52 @@ footer {
 
 /* Castles styles*/
 
-#castles {
-    height: 900px;
-    width: 100%;
-    
+#hero-outer-about {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
+
+#hero-outer-about img {
+    height: 200px;
+    width: 250px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: 2px solid #fff; 
+    /* position: absolute; */
+}
+
+#hero-outer-about a {
+    font-family: Robot-Slab, sans-serif;
+}
+
+#text-trollenas {
+    position: relative;
+    text-align: center;
+    left: 28%;
+    bottom: 220px;
+    height: 20px;
+    width: 600px;
+}
+
+#heading-trollenas, #hr-trollenas {
+    position: relative;
+    left: 28%;
+    bottom: 210px;
+    height: 20px;
+    width: 600px;
+}
+
+#troll-website {
+    position: relative;
+    left: 12%;
+    bottom: 260px;
+}
+
+#trollenas-map {
+    position: relative;
+    left: 60%;
+    bottom: 250px;
+}
+
+
+
