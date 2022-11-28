@@ -62,13 +62,7 @@ hr {
 
 /* Hero image*/
 
-#hero-outer {
-    overflow: hidden;
-    margin-top: 20px;
-    position: relative;   
-}
-
-#hero-outer-about {
+#hero-outer, #hero-outer-about {
     overflow: hidden;
     margin-top: 20px;
     position: relative;   
@@ -106,6 +100,18 @@ hr {
     background-position: top;
 }
 
+/* Sign up opaq hero image*/
+
+#hero-cover, .signup-form {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 74, 61, 0.8);
+
+    top: 0%;
+    
+    position: absolute;
+}
+
 /*Text for the hero image*/
 
 #image-text {
@@ -138,6 +144,29 @@ hr {
     font-style: italic;
     text-align: center;
     padding: 10px;
+}
+
+/* About us text*/
+
+#about-text {
+    font-family: Roboto-Slab, sans-serif;
+    background-color: rgba(62, 74, 61, 0.9);
+    width: 60%;
+    height: 60%;
+
+    bottom: 30%;
+    right: 20%;
+
+    position: absolute;
+}
+
+#about-text h2, p {
+    margin: 10px;
+}
+
+#about-text p {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* Footer styles*/
@@ -173,29 +202,56 @@ footer {
     text-shadow: 2px 2px 4px #3E4A3D;
 }
 
-/* About us text*/
+/* Styles for signup form*/
 
-#about-text {
-    font-family: Roboto-Slab, sans-serif;
-    background-color: rgba(62, 74, 61, 0.9);
-    width: 60%;
-    height: 60%;
-
-    bottom: 30%;
-    right: 20%;
+.signup-form { 
+    width: 30%;
+    height: 45%;
+    background-color: rgba(117, 186, 117, 0.6);
+    text-shadow: 2px 2px 4px #3E4A3D;
+    border: 2px solid #fff;
+    padding: 30px;
+    left: 33%;
+    top: 15%;
 
     position: absolute;
 }
 
-#about-text h2, p {
-    margin: 10px;
+.signup-form h2 {
+    margin-bottom: 30px;
 }
 
-#about-text p {
-    margin-top: 2%;
-    margin-bottom: 2%;
+.input-field {
+    width: 60%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #3E4A3D;
+    border-radius: 6px;
 }
 
+.signup-form label {
+    font-family: Roboto-Slob, sans-serif;
+    display: flex;
+    margin-left: 5px;
+}
+
+.signup-button {
+    margin-top: 15px;
+    display: block;
+    border-radius: 6px;
+    padding: 15px 25px;
+    font-size: 100%;
+    color: #fff;
+    background-color: #7C804C;
+    border: 1px solid #fff;
+}
+
+.signup-button:hover {
+    background-color: #fff;
+    color: #7C804C;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
 
 
