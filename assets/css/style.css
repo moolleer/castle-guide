@@ -36,8 +36,7 @@ h2, h3 {
 
 #menu li {  
     display: inline;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 #menu a {
@@ -61,8 +60,8 @@ h2, h3 {
     overflow: hidden;
     margin-top: 20px;
     position: relative;   
-    overflow: hidden;
 }
+
 #hero-image {
     height: 900px;
     background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
@@ -92,25 +91,32 @@ h2, h3 {
 
 #image-text {
     
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     
-    padding-top: 120px;
-    padding-right: 25px;
-    padding-bottom: 20px;
-    padding-left: 25px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 
     background-color: rgba(69, 165, 127, .5);
 
-    top: 80px;
+    top: 120px;
     left: 350px;
 
     position: absolute;
 }
 
+#hero-outer h2 {
+    font-size: 115%;
+    text-shadow: 2px 2px 4px #255F6F;
+}
+
 #hero-outer h3 {
-    font-size: 110%;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px #255F6F;
+    letter-spacing: 1px;
     font-style: italic;
     text-align: center;
     padding: 10px;
