@@ -10,7 +10,11 @@ body {
     font-family: Tangerine, sans-serif;
     background-repeat: no-repeat;
     color: #fff;
-    background-image: linear-gradient(to bottom right, #75BA75, #45A57F);
+    background-image: linear-gradient(to bottom right, #75BA75, #1E8F83); 
+}
+
+h2, h3 {
+    font-family: Robot-Slab, sans-serif;
 }
 
 #logo {
@@ -36,7 +40,6 @@ body {
     
 }
 
-
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -58,6 +61,7 @@ body {
     overflow: hidden;
     margin-top: 20px;
     position: relative;   
+    overflow: hidden;
 }
 #hero-image {
     height: 900px;
@@ -66,7 +70,7 @@ body {
     background-position: top;
 
     /* animates zoom out effect on loading page*/
-    
+
     animation-name: hero-zoom-out;
     animation-duration: 6s;
     animation-direction: reverse;
@@ -83,6 +87,36 @@ body {
         transform: scale(1.2);
     }
 }
+
+/*Text for the hero image*/
+
+#image-text {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    padding-top: 120px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+    background-color: rgba(69, 165, 127, .5);
+
+    top: 80px;
+    left: 350px;
+
+    position: absolute;
+}
+
+#hero-outer h3 {
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+
 
 
 
