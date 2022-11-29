@@ -100,9 +100,18 @@ hr {
     background-position: top;
 }
 
-/* Sign up opaq hero image*/
+#hero-image-no-zoom-castles{
+    height: 100%;
+    background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
+    background-size: cover;
+    background-position: top;
+}
 
-#hero-cover, .signup-form {
+
+
+/* opaq hero image*/
+
+#hero-cover {
     width: 100%;
     height: 100%;
     background-color: rgba(62, 74, 61, 0.8);
@@ -111,6 +120,8 @@ hr {
     
     position: absolute;
 }
+
+
 
 /*Text for the hero image*/
 
@@ -146,7 +157,7 @@ hr {
     padding: 10px;
 }
 
-/* About us text*/
+/* Styles for about us text*/
 
 #about-text {
     font-family: Roboto-Slab, sans-serif;
@@ -253,12 +264,7 @@ footer {
     text-transform: uppercase;
 }
 
-/* Castles styles*/
-
-#hero-outer-about {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+/* Styles for the castle imgages, headings and text (maps?)*/
 
 #hero-outer-about img {
     height: 200px;
@@ -266,40 +272,50 @@ footer {
     margin-top: 2%;
     margin-left: 10%;
     border: 2px solid #fff; 
-    /* position: absolute; */
+    position: relative;
+    z-index: 1;
 }
+
+/* #hero-image-no-zoom-castles div {
+    margin-bottom: 2%;
+} */
 
 #hero-outer-about a {
     font-family: Robot-Slab, sans-serif;
+    z-index: 1;
 }
 
-#text-trollenas {
+.castle-text {
     position: relative;
     text-align: center;
     left: 28%;
     bottom: 220px;
     height: 20px;
     width: 600px;
+    z-index: 1;
 }
 
-#heading-trollenas, #hr-trollenas {
+.castles-heading, .hr-castles {
     position: relative;
     left: 28%;
     bottom: 210px;
     height: 20px;
     width: 600px;
+    z-index: 1;
 }
 
-#troll-website {
+.castle-website {
     position: relative;
     left: 12%;
     bottom: 260px;
+    z-index: 1;
 }
 
 #trollenas-map {
     position: relative;
     left: 60%;
     bottom: 250px;
+    z-index: 1;
 }
 
 
