@@ -264,38 +264,62 @@ footer {
     text-transform: uppercase;
 }
 
-/* Styles for the castle imgages, headings and text (maps?)*/
+/* Styles for the castle imgages, headings, text and maps*/
 
-#hero-outer-about img {
+/* #hero-outer-about img {
     height: 200px;
     width: 250px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 6%;
     border: 2px solid #fff; 
     position: relative;
     z-index: 1;
+} */
+
+.div-flex {
+    display: flex;
 }
 
-/* #hero-image-no-zoom-castles div {
-    margin-bottom: 2%;
-} */
+.castle-image-div {
+    margin-top: 6%;
+    padding-left: 2%;
+}
+
+.castle-image-div img {
+    position: relative;
+    height: 200px;
+    width: 250px;
+    border: 2px solid #fff; 
+    z-index: 1;
+}
 
 #hero-outer-about a {
     font-family: Robot-Slab, sans-serif;
     z-index: 1;
 }
 
+.castle-text-div {
+    margin-top: 2%;
+}
+
 .castle-text {
     position: relative;
-    text-align: center;
-    left: 28%;
+    text-align: left;
+    left: 26%;
     bottom: 220px;
     height: 20px;
-    width: 600px;
+    width: 45%;
     z-index: 1;
 }
 
-.castles-heading, .hr-castles {
+.castle-text-new {
+    position: relative;
+    padding-left: 3%;
+    width: 90%;
+    z-index: 1;
+}
+
+.castles-heading {
     position: relative;
     left: 28%;
     bottom: 210px;
@@ -304,19 +328,62 @@ footer {
     z-index: 1;
 }
 
-.castle-website {
+.castle-heading-new {
     position: relative;
-    left: 12%;
-    bottom: 260px;
+    height: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
     z-index: 1;
 }
 
-#trollenas-map {
+.hr-castles {
     position: relative;
-    left: 60%;
-    bottom: 250px;
+    left: 27%;
+    bottom: 210px;
+    height: 20px;
+    width: 600px;
     z-index: 1;
 }
+
+.hr-castle-new {
+    position: relative;
+    height: 5px;
+    width: 90%;
+    margin-left: 4%;
+    z-index: 1;
+}
+
+.castle-website {
+    position: relative;
+    left: 6%;
+    bottom: 260px;
+    z-index: 1;
+    color: #fff;
+}
+
+.castle-website-new {
+    position: relative;
+    font-size: 13px;
+    z-index: 1;
+    color: #fff;
+}
+
+.castle-map {
+    position: relative;
+    left: 60%;
+    bottom: 280px;
+    z-index: 1;
+}
+
+.castle-map-div {
+    position: relative;
+    width: 400px;
+    margin-top: 6%;
+    padding-right: 2%;
+    z-index: 1;
+}
+
+
 
 
 
