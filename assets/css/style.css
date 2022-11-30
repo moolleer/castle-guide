@@ -123,7 +123,7 @@ hr {
 
 
 
-/*Text for the hero image*/
+/*Text for the cercle on hero image*/
 
 #image-text {
     width: 150px;
@@ -163,9 +163,9 @@ hr {
     font-family: Roboto-Slab, sans-serif;
     background-color: rgba(62, 74, 61, 0.9);
     width: 60%;
-    height: 60%;
+    
 
-    bottom: 30%;
+    top: 10%;
     right: 20%;
 
     position: absolute;
@@ -223,7 +223,7 @@ footer {
     border: 2px solid #fff;
     padding: 30px;
     left: 33%;
-    top: 15%;
+    top: 10%;
 
     position: absolute;
 }
@@ -329,7 +329,64 @@ footer {
     z-index: 1;
 }
 
+/* for screen sizes 1200px wide and down*/
 
+@media screen and (max-width: 1200px) {
+    .castle-image-div img {
+        height: 150px;
+        width: 200px;
+        margin-top: 25%;
+    }
 
+    .castle-map-div Iframe {
+        height: 150px;
+        width: 200px; 
+        margin-top: 25%;
+    }
+
+    .castle-text-new {
+        font-size: 14px;
+    }
+
+    #image-text {
+        width: 100px;
+        height: 100px;
+        top: 8%;
+    }
+
+    #hero-outer h2 {
+        font-size: 12px;
+    }
+
+    #hero-outer h3 {
+        font-size: 10px;
+        padding: 4px;
+    }
+}
+
+/* for screen sizes 992 px wide and down*/
+
+@media screen and (max-width: 992px) {
+    .signup-form h2 {
+        font-size: 20px;  
+    }
+
+    #logo {
+        font-size: 480%;
+    }
+    
+}
+
+/* for screen sizes 768 px wide and down*/
+
+@media screen and (max-width: 768px) {
+    
+}
+
+/* for screen sizes 600 px wide and down*/
+
+@media screen and (max-width: 600px) {
+    
+}
 
 
