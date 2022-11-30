@@ -266,16 +266,6 @@ footer {
 
 /* Styles for the castle imgages, headings, text and maps*/
 
-/* #hero-outer-about img {
-    height: 200px;
-    width: 250px;
-    margin-top: 2%;
-    margin-left: 6%;
-    border: 2px solid #fff; 
-    position: relative;
-    z-index: 1;
-} */
-
 .div-flex {
     display: flex;
 }
@@ -293,7 +283,7 @@ footer {
     z-index: 1;
 }
 
-#hero-outer-about a {
+.div-flex a {
     font-family: Robot-Slab, sans-serif;
     z-index: 1;
 }
@@ -302,29 +292,10 @@ footer {
     margin-top: 2%;
 }
 
-.castle-text {
-    position: relative;
-    text-align: left;
-    left: 26%;
-    bottom: 220px;
-    height: 20px;
-    width: 45%;
-    z-index: 1;
-}
-
 .castle-text-new {
     position: relative;
     padding-left: 3%;
     width: 90%;
-    z-index: 1;
-}
-
-.castles-heading {
-    position: relative;
-    left: 28%;
-    bottom: 210px;
-    height: 20px;
-    width: 600px;
     z-index: 1;
 }
 
@@ -336,15 +307,6 @@ footer {
     z-index: 1;
 }
 
-.hr-castles {
-    position: relative;
-    left: 27%;
-    bottom: 210px;
-    height: 20px;
-    width: 600px;
-    z-index: 1;
-}
-
 .hr-castle-new {
     position: relative;
     height: 5px;
@@ -353,26 +315,11 @@ footer {
     z-index: 1;
 }
 
-.castle-website {
-    position: relative;
-    left: 6%;
-    bottom: 260px;
-    z-index: 1;
-    color: #fff;
-}
-
 .castle-website-new {
     position: relative;
     font-size: 13px;
     z-index: 1;
     color: #fff;
-}
-
-.castle-map {
-    position: relative;
-    left: 60%;
-    bottom: 280px;
-    z-index: 1;
 }
 
 .castle-map-div {
