@@ -145,11 +145,13 @@ hr {
 
 #hero-outer h2 {
     font-size: 115%;
+    font-weight: 100;
     text-shadow: 2px 2px 4px #255F6F;
 }
 
 #hero-outer h3 {
     font-size: 100%;
+    font-weight: 100;
     text-shadow: 2px 2px 4px #255F6F;
     letter-spacing: 1px;
     font-style: italic;
@@ -315,6 +317,10 @@ footer {
     z-index: 1;
 }
 
+.hr-bottom {
+    visibility: hidden;
+}
+
 .castle-website-new {
     position: relative;
     font-size: 13px;
@@ -362,9 +368,13 @@ footer {
         font-size: 10px;
         padding: 4px;
     }
+
+    .input-field {
+        width: 100%;
+    }
 }
 
-/* for screen sizes 992 px wide and down*/
+/* for screen sizes 992px wide and down*/
 
 @media screen and (max-width: 992px) {
     .div-flex {
@@ -437,16 +447,103 @@ footer {
         padding: 4px;
     }
 
-    
-
-    
-    
+    .input-field {
+        width: 100%;
+    }
+   
 }
 
 /* for screen sizes 768 px wide and down*/
 
 @media screen and (max-width: 768px) {
-    
+    .div-flex {
+        display: flow-root;
+        padding-bottom: 2%;
+    }
+
+    #logo {
+        font-size: 240%;
+    }
+
+    #menu li {
+        font-size: 13px;
+    }
+
+    #image-text {
+        width: 50px;
+        height: 50px;
+        top: 5%;
+
+        padding-top: 30px;
+        padding-right: 35px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    #hero-outer h2 {
+        font-size: 10px;
+    }
+
+    #hero-outer h3 {
+        font-size: 8px;
+        padding: 4px;   
+    }
+
+    #about-text h2 {
+        font-size: 20px;
+    }
+
+    #about-text p {
+        font-size: 12px;
+    }
+
+    .castle-image-div {
+        position: unset;
+        padding-left: 42%;
+        margin-top: 50px;
+    }
+
+    .castle-text-div {
+        position: unset;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .castle-heading-new {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .castle-text-new {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .castle-map-div {
+        padding-left: 0%;
+    }
+
+    .hr-bottom {
+        width: 90%;
+        margin-left: 4%;
+        margin-top: 30px;
+        visibility: visible;
+        z-index: 1;
+        position: relative;
+    }
+
+    .castle-map-div Iframe {
+        margin-top: 0;
+        padding-left: 42%;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
 }
 
 /* for screen sizes 600 px wide and down*/
