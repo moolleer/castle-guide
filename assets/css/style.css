@@ -107,8 +107,6 @@ hr {
     background-position: unset;
 }
 
-
-
 /* opaq hero image*/
 
 #hero-cover {
@@ -120,8 +118,6 @@ hr {
     
     position: absolute;
 }
-
-
 
 /*Text for the cercle on hero image*/
 
@@ -266,7 +262,7 @@ footer {
     text-transform: uppercase;
 }
 
-/* Styles for the castle imgages, headings, text and maps*/
+/* Styles for the castle images, headings, text and maps*/
 
 .div-flex {
     display: flex;
@@ -335,7 +331,7 @@ footer {
     z-index: 1;
 }
 
-/* for screen sizes 1200px wide and down*/
+/* for screen sizes 1200 px wide and down*/
 
 @media screen and (max-width: 1200px) {
     .castle-image-div img {
@@ -374,7 +370,7 @@ footer {
     }
 }
 
-/* for screen sizes 992px wide and down*/
+/* for screen sizes 992 px wide and down*/
 
 @media screen and (max-width: 992px) {
     .div-flex {
@@ -639,6 +635,69 @@ footer {
     .signup-button {
         margin-left: 10px;
     }
+
+    #contact {
+        margin-top: 20px;
+    }
+
+    #contact h3, h4 {
+        font-size: 15px;
+    }
+    
+    .social-media {
+        margin-top: 15px;
+    }
+
+    .social-media > li {
+        font-size: 15px;
+    }
 }
 
+/* for screen sizes 300 px wide and down */
+
+@media screen and (max-width: 300px) {
+    #logo {
+        font-size: 160%;
+    }
+
+    .castle-image-div {
+        padding-left: 25%;
+    }
+
+    .castle-heading-new {
+        padding-left: 0;
+    }
+
+    .castle-text-div {
+        margin-right: 20px;
+    }
+
+    .castle-map-div Iframe {
+        padding-left: 25%;
+    }
+
+    .hr-castle-new {
+        width: 100%;
+    }
+
+    .hr-bottom {
+        width: 90%;
+    }
+
+    #contact {
+        margin-top: 20px;
+    }
+
+    #contact h3, h4 {
+        font-size: small;
+    }
+    
+    .social-media {
+        margin-top: 15px;
+    }
+
+    .social-media > li {
+        font-size: small;
+    }
+}
 
