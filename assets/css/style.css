@@ -104,7 +104,7 @@ hr {
     height: 100%;
     background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
     background-size: cover;
-    background-position: top;
+    background-position: unset;
 }
 
 
@@ -549,7 +549,96 @@ footer {
 /* for screen sizes 600 px wide and down*/
 
 @media screen and (max-width: 600px) {
-    
+    /* .div-flex {
+        display: flow-root;
+        padding-bottom: 2%;
+    } */
+    #hero-image {
+        height: 700px;
+    }
+
+    #logo {
+        font-size: 180%;
+    }
+
+    #menu li {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    #image-text {
+        width: 40px;     
+        height: 40px;
+        top: 5%;
+
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 35px;
+        padding-left: 25px;
+    }
+
+    #hero-image-no-zoom {
+        height: 700px;
+    }
+
+    #about-text {
+        width: 70%;
+        right: 0%;
+        left: 14%;
+    }
+
+    #about-text h2 {
+        font-size: 15px;
+    }
+
+    #about-text p {
+        font-size: 11px;
+    }
+
+    .castle-image-div {
+        position: unset;
+        padding-left: 33%;
+        margin-top: 50px;
+    }
+
+    .castle-image-div img {
+        height: 90px;
+        width: 140px;
+    }
+
+    .castle-map-div Iframe {
+        margin-top: 0;
+        padding-left: 33%;
+    }
+
+    .signup-form {
+        width: 80%;
+        height: 54%;
+        padding: 0;
+        left: 9%;
+        top: 10%;
+    }
+
+    .signup-form h2 {
+        font-size: 13px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .signup-form label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .input-field {
+        width: 80%;
+        margin-left: 8px;
+    }
+
+    .signup-button {
+        margin-left: 10px;
+    }
 }
 
 
