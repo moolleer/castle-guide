@@ -367,6 +367,53 @@ footer {
 /* for screen sizes 992 px wide and down*/
 
 @media screen and (max-width: 992px) {
+    .div-flex {
+        display: flow-root;
+        position: relative;
+        padding-bottom: 4%;
+    }
+
+    .castle-image-div {
+        height: fit-content;
+        position: absolute;
+        margin-top: 55px;
+    }
+
+    .castle-image-div img {
+        height: 100px;
+        width: 150px;
+        margin-top: 0;
+    }
+
+    .castle-website-new {
+        font-size: 55%;
+    }
+
+    .castle-text-div {
+        margin-top: 0;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .castle-text-new {
+        padding-left: 4%;
+    }
+
+    .castle-map-div {
+        margin: 0;
+        padding-right: 0;
+        padding-left: 2%;
+    }
+
+    .castle-map-div Iframe {
+        height: 100px;
+        width: 150px; 
+        margin-top: 190px;
+    }
+
+    .castle-text-new {
+        font-size: 13px;
+    }
     .signup-form h2 {
         font-size: 20px;  
     }
@@ -374,6 +421,25 @@ footer {
     #logo {
         font-size: 480%;
     }
+
+    #image-text {
+        width: 80px;
+        height: 80px;
+        top: 5%;
+    }
+
+    #hero-outer h2 {
+        font-size: 10px;
+    }
+
+    #hero-outer h3 {
+        font-size: 8px;
+        padding: 4px;
+    }
+
+    
+
+    
     
 }
 
