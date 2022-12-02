@@ -8,6 +8,7 @@
 
 body {
     font-family: Tangerine, sans-serif;
+    line-height: 20px;
     background-repeat: no-repeat;
     color: #fff;
     background-image: linear-gradient(to bottom right, #75BA75, #1E8F83); 
@@ -104,7 +105,7 @@ hr {
     height: 100%;
     background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
 }
 
 /* opaq hero image*/
@@ -112,7 +113,7 @@ hr {
 #hero-cover {
     width: 100%;
     height: 100%;
-    background-color: rgba(62, 74, 61, 0.8);
+    background-color: rgba(14, 20, 14, 0.9);
 
     top: 0%;
     
@@ -216,7 +217,7 @@ footer {
 .signup-form { 
     width: 30%;
     height: 45%;
-    background-color: rgba(117, 186, 117, 0.6);
+    background-color: rgba(117, 186, 117, 0.5);
     text-shadow: 2px 2px 4px #3E4A3D;
     border: 2px solid #fff;
     padding: 30px;
