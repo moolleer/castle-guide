@@ -11,10 +11,13 @@ body {
     line-height: 20px;
     background-repeat: no-repeat;
     color: #fff;
-    background-image: linear-gradient(to bottom right, #75BA75, #1E8F83); 
+    background-image: linear-gradient(to bottom right, #75BA75, #1E8F83);
 }
 
-h2, h3, h4, p {
+h2,
+h3,
+h4,
+p {
     font-family: Robot-Slab, sans-serif;
 }
 
@@ -41,9 +44,9 @@ hr {
     margin-top: 20px;
 }
 
-#menu li {  
+#menu li {
     display: inline;
-    margin: 20px;   
+    margin: 20px;
 }
 
 #menu a {
@@ -63,10 +66,11 @@ hr {
 
 /* Hero image*/
 
-#hero-outer, #hero-outer-about {
+#hero-outer,
+#hero-outer-about {
     overflow: hidden;
     margin-top: 20px;
-    position: relative;   
+    position: relative;
 }
 
 #hero-image {
@@ -101,7 +105,7 @@ hr {
     background-position: top;
 }
 
-#hero-image-no-zoom-castles{
+#hero-image-no-zoom-castles {
     height: 100%;
     background: url('../images/vittskovle-slott-1229x1536.jpg') no-repeat center;
     background-size: cover;
@@ -116,7 +120,7 @@ hr {
     background-color: rgba(14, 20, 14, 0.9);
 
     top: 0%;
-    
+
     position: absolute;
 }
 
@@ -126,7 +130,7 @@ hr {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    
+
     padding-top: 60px;
     padding-right: 20px;
     padding-bottom: 5px;
@@ -162,7 +166,6 @@ hr {
     font-family: Roboto-Slab, sans-serif;
     background-color: rgba(62, 74, 61, 0.9);
     width: 60%;
-    
 
     top: 10%;
     right: 20%;
@@ -170,7 +173,8 @@ hr {
     position: absolute;
 }
 
-#about-text h2, p {
+#about-text h2,
+p {
     margin: 10px;
 }
 
@@ -204,17 +208,18 @@ footer {
 
 #contact {
     text-align: center;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
-#contact h3, h4 {
+#contact h3,
+h4 {
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px #3E4A3D;
 }
 
 /* Styles for signup form*/
 
-.signup-form { 
+.signup-form {
     width: 30%;
     height: 45%;
     background-color: rgba(117, 186, 117, 0.5);
@@ -278,7 +283,7 @@ footer {
     position: relative;
     height: 200px;
     width: 250px;
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     z-index: 1;
 }
 
@@ -343,7 +348,7 @@ footer {
 
     .castle-map-div Iframe {
         height: 150px;
-        width: 200px; 
+        width: 200px;
         margin-top: 25%;
     }
 
@@ -414,15 +419,16 @@ footer {
 
     .castle-map-div Iframe {
         height: 100px;
-        width: 150px; 
+        width: 150px;
         margin-top: 190px;
     }
 
     .castle-text-new {
         font-size: 13px;
     }
+
     .signup-form h2 {
-        font-size: 20px;  
+        font-size: 20px;
     }
 
     #logo {
@@ -446,7 +452,7 @@ footer {
 
     .input-field {
         width: 100%;
-    } 
+    }
 }
 
 /* for screen sizes 768 px wide and down*/
@@ -482,7 +488,7 @@ footer {
 
     #hero-outer h3 {
         font-size: 8px;
-        padding: 4px;   
+        padding: 4px;
     }
 
     #about-text h2 {
@@ -558,7 +564,7 @@ footer {
     }
 
     #image-text {
-        width: 40px;     
+        width: 40px;
         height: 40px;
         top: 5%;
 
@@ -635,15 +641,16 @@ footer {
         margin-top: 20px;
     }
 
-    #contact h3, h4 {
+    #contact h3,
+    h4 {
         font-size: 15px;
     }
-    
+
     .social-media {
         margin-top: 15px;
     }
 
-    .social-media > li {
+    .social-media>li {
         font-size: 15px;
     }
 }
@@ -683,15 +690,16 @@ footer {
         margin-top: 20px;
     }
 
-    #contact h3, h4 {
+    #contact h3,
+    h4 {
         font-size: small;
     }
-    
+
     .social-media {
         margin-top: 15px;
     }
 
-    .social-media > li {
+    .social-media>li {
         font-size: small;
     }
 }
