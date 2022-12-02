@@ -446,8 +446,7 @@ footer {
 
     .input-field {
         width: 100%;
-    }
-   
+    } 
 }
 
 /* for screen sizes 768 px wide and down*/
@@ -540,16 +539,11 @@ footer {
     .input-field {
         width: 100%;
     }
-
 }
 
 /* for screen sizes 600 px wide and down*/
 
 @media screen and (max-width: 600px) {
-    /* .div-flex {
-        display: flow-root;
-        padding-bottom: 2%;
-    } */
     #hero-image {
         height: 700px;
     }
