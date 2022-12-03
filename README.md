@@ -101,10 +101,20 @@ Footer
 ### Manual testing
 
 - Text and email inputs in the sign up form are validated.
-- All of the websites pages are fully responsive. This was tested by using Google Chrome        
-Developers tool.
+- All of the websites pages are fully responsive. This was tested by using Google 
+- The website have been tested and works in different browsers:
 
-BROWSERS
+  - Google Chrome
+ ![Google chrome browser](docs/README-images/test-google-chrome.png)
+
+  - Microsoft Edge
+ ![Microsoft Edge browser](docs/README-images/test-microsoft-edge.png)
+
+  - Firefox
+ ![Firefox browser](docs/README-images/test-firefox.png)
+
+  - Safari
+ ![Safari browser](docs/README-images/test-safari.png)
 
 ### Lighthouse
 
@@ -149,8 +159,6 @@ All html pages are validated with [W3C HTML validator](https://validator.w3.org/
 - W3C CSS Validator
 ![CSS validation](docs/README-images/css.jpg)
 CSS validated by [CSS validator](https://jigsaw.w3.org/css-validator/) and no error found.
-
-
 
 ### Bugs and fixes
 
