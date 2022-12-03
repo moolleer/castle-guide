@@ -36,7 +36,8 @@ Header
 
 ![Header](docs/README-images/header.png)
 
-- About
+About Us
+- The about section give the user some short info. 
 
 ![About](docs/README-images/aboutpage%20.png)
 
@@ -71,10 +72,18 @@ Responsive design
 
 ![Castles under 300x](docs/README-images/castles-under-300px.png)
 
+Sign up
+- The page contains a form for the user to fill in if they want to have a newsletter for castles updates.
 
-- Sign up
+![Sign up form](docs/README-images/signup-page.png)
 
-- Footer 
+- The fields requires input and the email field must have a emailaddress.
+
+![Sign up form email](docs/README-images/signup-email.png)
+
+- The button changes color and to uppercase letters when hovered over.
+
+Footer 
 
 ![Footer](docs/README-images/footer.png)
 
