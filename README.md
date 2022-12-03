@@ -30,6 +30,7 @@ Home page
 
 Header
 - A header section with the logo and icon. 
+- The header is consistent trough the whole site, with responsive design for different screen sizes.
 - Navigation links for each page _Home_ (index.html), _About_ (about.html), _Castles_ (castles.html) and _Sign up_ (sign-up.html).
 - A colored border effect for letting the user know wich page its currently on.
 - The navigation links also have a colored increased padding when hovered over. 
@@ -84,6 +85,9 @@ Sign up
 - The button changes color and to uppercase letters when hovered over.
 
 Footer 
+- The footer is consistent trough the whole site, with responsive design for different screen sizes.
+- It contains the contact details such as email and phonenumber.
+- It also contains the icons and links to social media pages, wich will open in a new tab.
 
 ![Footer](docs/README-images/footer.png)
 
