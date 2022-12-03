@@ -11,14 +11,42 @@ The site is intended to target people who wants to visit and learn more about ca
 
 ### Design
 
-The color palette for the website was generated from [My Color](https://mycolor.space/). 
+- The color palette for the website was generated from [My Color](https://mycolor.space/). 
 
 ![Color palette](/README-images/color-gradient.png)
 
+- I have used the colors #75BA75 and #1E8F83 for the background.
+- I wanted a smooth gradient effect for the page, and found how to implement it here [Gradient reference](https://www.w3schools.com/css/css3_gradients.asp)
+- A white text color is used to give a nice contrast against the green background. 
+- I wanted to have an opaque background behind the text, so the background image could still be used with white text.
+
 ### Existing Features
 
-
 - Home page
+
+![Home page](/README-images/homepage-feature.png)
+
+- Header
+
+![Header](/README-images/header.png)
+
+- About
+
+![Header](/README-images/aboutpage%20.png)
+
+- Castles
+
+![Castles over 992px](/README-images/castles-over-992px.png)
+
+![Castles over 768px](/README-images/castles-over-768px.png)
+
+- Sign up
+
+- Footer 
+
+![Footer](/README-images/footer.png)
+
+- The icons for the social media links and logo have been taken from [FontAwesome](https://fontawesome.com/)
 
 ### Future Features
 
@@ -52,6 +80,10 @@ Lighthouse score on castle page can be improved on future updates. The lower sco
  ![Lighthouse score sign up page](/README-images/lighthouse-signup.png)
  
 ### External Links
+All external links have been tested and opens in a seperate tab when clicked: 
+- Links to social media in the footer
+- Links to the castles homepages
+- Links to Google Maps location
 
 ### Code Validation
 ##### W3C HTML Validation
@@ -92,8 +124,16 @@ The live link: https://moolleer.github.io/castle-guide/
 ## Credits
 
 ### Content
+- Most of the text and inspiration about the castles are based on information from [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/) and [Slottsguiden](https://slottsguiden.info/)
 
 ### Media   
+The images for the castle and background are from following websites: 
+ - [Kulturbilder](https://kulturbilder.wordpress.com/2017/09/27/trollenas-slott-eslov/)
+ - [Gylleboannika](https://gylleboannika.se/tag/hovdala-slott/)
+ - [Skurup](https://www.skurup.se/svaneholm)
+ - [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/)
+ - [Slottsguiden](https://slottsguiden.info/)
+
 
 
 
