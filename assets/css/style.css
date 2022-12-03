@@ -60,6 +60,7 @@ hr {
     border: 5px solid #1E8F83;
 }
 
+/* Creates a border for the page the user is currently on*/
 .active {
     border-bottom: 2px solid #1E8F83;
 }

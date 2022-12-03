@@ -22,23 +22,55 @@ The site is intended to target people who wants to visit and learn more about ca
 
 ### Existing Features
 
-- Home page
+Home page
+- In the homepage, when first loaded the user welcomes with a zoom out effect on the background image of a castle. 
+- The name and location is also stated in a small colored circle to catch the users attention.
 
 ![Home page](docs/README-images/homepage-feature.png)
 
-- Header
+Header
+- A header section with the logo and icon. 
+- Navigation links for each page _Home_ (index.html), _About_ (about.html), _Castles_ (castles.html) and _Sign up_ (sign-up.html).
+- A colored border effect for letting the user know wich page its currently on.
+- The navigation links also have a colored increased padding when hovered over. 
 
 ![Header](docs/README-images/header.png)
 
 - About
 
-![Header](docs/README-images/aboutpage%20.png)
+![About](docs/README-images/aboutpage%20.png)
 
 - Castles
 
-![Castles over 992px](docsREADME-images/castles-over-992px.png)
+The castle page contains:
 
+- An image to give the user a perception about the castle looks.
+- A clickable map wich opens up in a new tap to give the user a quick perception of the castles location.
+- A short describing text about the castle and its history. 
+- A link to the castles website.
+
+Responsive design
+
+- How the castle page looks on devices over 1200px 
+![Castles over 1200px](docs/README-images/castles-over-1200px.png)
+
+- How the castle page looks on devices over 992px 
+![Castles over 992px](docs/README-images/castles-over-992px.png)
+
+- How the castle page looks on devices over 768px
 ![Castles over 768px](docs/README-images/castles-over-768px.png)
+
+- How the castle page looks on devices over 600px
+![Castles over 600x](docs/README-images/castles-over-600px.png)
+
+- How the castle page looks on devices over 300px
+
+![Castles over 300x](docs/README-images/castles-over-300px.png)
+
+- How the castle page looks on devices under 300px
+
+![Castles under 300x](docs/README-images/castles-under-300px.png)
+
 
 - Sign up
 
@@ -124,6 +156,7 @@ The live link: https://moolleer.github.io/castle-guide/
 ## Credits
 
 ### Content
+- Inspiration from the Love Running projects zoom effect for home page and active class for the navigation links.
 - Most of the text and inspiration about the castles are based on information from [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/) and [Slottsguiden](https://slottsguiden.info/)
 
 ### Media   
