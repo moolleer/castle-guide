@@ -152,7 +152,17 @@ CSS validated by [CSS validator](https://jigsaw.w3.org/css-validator/) and no er
 
 
 
-### Unfixed bugs
+### Bugs and fixes
+
+- Links to the castle website in the media query for (max: width 992px) did not work. This was the only media query I used this positioning to, because I wanted the picture and map to appear left of the text. After some research I figured out it had to do with the z-index of the link thanks to this page on [Stackoverflow](https://stackoverflow.com/questions/16773989/when-div-with-absolute-position-is-added-cannot-click-on-links) 
+After I changed it to z-index 2 it worked perfectly.
+
+- After deployment the images did not show on the live website. As it worked in Gitpod I could not understand what was wrong. After some reserach I found this page on [Stackoverflow](https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages), and after I removed a forward slash from the start of the filepath the images finally worked.
+
+Unfixed bugs
+
+For screen sizes between 600px-768px the empty space between the bottom and top for the following castles differs. I have tried to solve this by changing paddings, margins, positions with different values on all elements.
+I have also had some help from my mentor but the time was limited and we had to move on to other topics in our last mentoring session. This would be something I would improve for future. 
 
 ## Deployment
 
@@ -167,6 +177,7 @@ The live link: https://moolleer.github.io/castle-guide/
 
 
 ## Credits
+- To Merve my mentor for the guidance and help.
 
 ### Content
 - Inspiration from the Love Running projects zoom effect for home page and active class for the navigation links.
