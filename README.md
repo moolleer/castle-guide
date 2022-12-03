@@ -42,7 +42,7 @@ About Us
 
 ![About](docs/README-images/aboutpage%20.png)
 
-- Castles
+Castles
 
 The castle page contains:
 
@@ -94,14 +94,14 @@ Footer
 - The icons for the social media links and logo have been taken from [FontAwesome](https://fontawesome.com/)
 
 ### Future Features
+- Make the images clickable and open up a new page for each castle with more information and history.
+- Improve the design for different screen sizes, so the alignment is more an even flow of the content. It works on the most dimensions, but theres more room for improvement.
 
 ## Testing
-
-
 ### Manual testing
 
 - Text and email inputs in the sign up form are validated.
-- All of the websites pages are fully responsive. This was tested by using Google 
+- All of the websites pages are fully responsive. This was tested by using Google Developer Tool. 
 - The website have been tested and works in different browsers:
 
   - Google Chrome
