@@ -3,7 +3,7 @@
 Castle guide Skåne is a site for people who are interested in swedish castles and history in the south part of Sweden. 
 The site is intended to target people who wants to visit and learn more about castles. It highlights certain castles around Skåne, and will be useful for people who looking for easy and quick information about wich castles could be worth visiting and where they are located.    
 
-![Responsive Mockup](README-images/am-i-responsive.png)
+![Responsive Mockup](docs/README-images/am-i-responsive.png)
 
 ### [View the live website here](https://moolleer.github.io/castle-guide/)
 
@@ -13,7 +13,7 @@ The site is intended to target people who wants to visit and learn more about ca
 
 - The color palette for the website was generated from [My Color](https://mycolor.space/). 
 
-![Color palette](/README-images/color-gradient.png)
+![Color palette](docs/README-images/color-gradient.png)
 
 - I have used the colors #75BA75 and #1E8F83 for the background.
 - I wanted a smooth gradient effect for the page, and found how to implement it here [Gradient reference](https://www.w3schools.com/css/css3_gradients.asp)
@@ -24,27 +24,27 @@ The site is intended to target people who wants to visit and learn more about ca
 
 - Home page
 
-![Home page](/README-images/homepage-feature.png)
+![Home page](docs/README-images/homepage-feature.png)
 
 - Header
 
-![Header](/README-images/header.png)
+![Header](docs/README-images/header.png)
 
 - About
 
-![Header](/README-images/aboutpage%20.png)
+![Header](docs/README-images/aboutpage%20.png)
 
 - Castles
 
-![Castles over 992px](/README-images/castles-over-992px.png)
+![Castles over 992px](docsREADME-images/castles-over-992px.png)
 
-![Castles over 768px](/README-images/castles-over-768px.png)
+![Castles over 768px](docs/README-images/castles-over-768px.png)
 
 - Sign up
 
 - Footer 
 
-![Footer](/README-images/footer.png)
+![Footer](docs/README-images/footer.png)
 
 - The icons for the social media links and logo have been taken from [FontAwesome](https://fontawesome.com/)
 
@@ -68,16 +68,16 @@ Lighthouse score on castle page can be improved on future updates. The lower sco
 
  - Home page
 
-![Lighthouse score home page](/README-images/lighthouse-home.png)
+![Lighthouse score home page](docs/README-images/lighthouse-home.png)
  - About page
 
-![Lighthouse score about page](/README-images/lighthouse-about.png)
+![Lighthouse score about page](docs/README-images/lighthouse-about.png)
  - Castle page
 
- ![Lighthouse score castle page](/README-images/lighthouse-castles.png)
+ ![Lighthouse score castle page](docs/README-images/lighthouse-castles.png)
  - Signup form
 
- ![Lighthouse score sign up page](/README-images/lighthouse-signup.png)
+ ![Lighthouse score sign up page](docs/README-images/lighthouse-signup.png)
  
 ### External Links
 All external links have been tested and opens in a seperate tab when clicked: 
@@ -89,20 +89,20 @@ All external links have been tested and opens in a seperate tab when clicked:
 ##### W3C HTML Validation
 
 - Home page
-![Home page HTML validation](/README-images/Home-page%20.jpg)
+![Home page HTML validation](docs/README-images/Home-page%20.jpg)
 - About page
-![About page HTML validation](/README-images/About.jpg)
+![About page HTML validation](docs/README-images/About.jpg)
 - Castles page
-![Castle page HTML validation](/README-images/castles.jpg)
+![Castle page HTML validation](docs/README-images/castles.jpg)
 - Sign up page
-![Castle page HTML validation](/README-images/signup.jpg)
+![Castle page HTML validation](docs/README-images/signup.jpg)
 
 All html pages are validated with [W3C HTML validator](https://validator.w3.org/) and come back with no errors or warnings.
 
 ##### W3C CSS Validation
 
 - W3C CSS Validator
-![CSS validation](/README-images/css.jpg)
+![CSS validation](docs/README-images/css.jpg)
 CSS validated by [CSS validator](https://jigsaw.w3.org/css-validator/) and no error found.
 
 
