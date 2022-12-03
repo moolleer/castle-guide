@@ -18,6 +18,34 @@ The site is intended to target people who wants to visit and learn more about ca
 
 ### Manual testing
 
+- Text and email inputs in the sign up form are validated.
+- All of the websites pages are fully responsive. This was tested by using Google Chrome        
+Developers tool.
+
+BROWSERS
+
+### Lighthouse
+
+All of the website pages have been tested using Lighthouse Chrome Developer Tool.
+Lighthouse score on castle page can be improved on future updates. The lower score is caused by the images width and height values that differ from the source images dimension.
+
+ - Home page
+
+![Lighthouse score home page](/README-images/lighthouse-home.png)
+ - About page
+
+![Lighthouse score about page](/README-images/lighthouse-about.png)
+ - Castle page
+
+ ![Lighthouse score castle page](/README-images/lighthouse-castles.png)
+ - Signup form
+
+ ![Lighthouse score sign up page](/README-images/lighthouse-signup.png)
+ 
+
+
+
+
 ### External Links
 
 ### Code Validation
