@@ -402,6 +402,10 @@ h4 {
         font-size: 55%;
     }
 
+    .div-flex a {
+        z-index: 2;
+    }
+
     .castle-text-div {
         margin-top: 0;
         margin-left: 20%;
@@ -413,7 +417,6 @@ h4 {
     }
 
     .castle-map-div {
-        /* margin: 0; */
         padding-right: 0;
         padding-left: 2%;
     }
