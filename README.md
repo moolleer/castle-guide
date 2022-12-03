@@ -9,7 +9,16 @@ The site is intended to target people who wants to visit and learn more about ca
 
 ## Features 
 
+### Design
+
+The color palette for the website was generated from [My Color](https://mycolor.space/). 
+
+![Color palette](/README-images/color-gradient.png)
+
 ### Existing Features
+
+
+- Home page
 
 ### Future Features
 
