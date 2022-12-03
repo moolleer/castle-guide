@@ -27,7 +27,7 @@ BROWSERS
 ### Lighthouse
 
 All of the website pages have been tested using Lighthouse Chrome Developer Tool.
-Lighthouse score on castle page can be improved on future updates. The lower score is caused by the images width and height values that differ from the source images dimension.
+Lighthouse score on castle page can be improved on future updates. The lower score is negatively effected by the images width and height values that differ from the source images dimension.
 
  - Home page
 
@@ -42,10 +42,6 @@ Lighthouse score on castle page can be improved on future updates. The lower sco
 
  ![Lighthouse score sign up page](/README-images/lighthouse-signup.png)
  
-
-
-
-
 ### External Links
 
 ### Code Validation
@@ -73,6 +69,16 @@ CSS validated by [CSS validator](https://jigsaw.w3.org/css-validator/) and no er
 ### Unfixed bugs
 
 ## Deployment
+
+The project has been deployed to GitHub pages taking the following steps:
+
+1) In the Github project repository, click on _Settings_.
+2) From the Settings menu, locate _Pages_.
+3) Under Branch, select _Main_ branch.
+4) Click _Save_, and the page will then automatically refresh with a link to the deployed site.
+
+The live link: https://moolleer.github.io/castle-guide/
+
 
 ## Credits
 
