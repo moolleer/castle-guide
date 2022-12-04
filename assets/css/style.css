@@ -467,11 +467,11 @@ h4 {
     }
 
     #logo {
-        font-size: 240%;
+        font-size: 380%;
     }
 
     #menu li {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     #image-text {
@@ -497,8 +497,12 @@ h4 {
 
     .castle-image-div {
         position: unset;
-        padding-left: 42%;
+        padding-left: 38%;
         margin-top: 50px;
+    }
+
+    .castle-website-new {
+        font-size: 75%;
     }
 
     .castle-text-div {
@@ -510,24 +514,25 @@ h4 {
     }
 
     .castle-heading-new {
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .castle-text-new {
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
+        margin-top: 30px;
     }
 
     .castle-map-div {
         padding-left: 0%;
+        margin-top: 0;
     }
 
     .hr-bottom {
         width: 90%;
         margin-left: 4%;
-        margin-top: 30px;
         visibility: visible;
         z-index: 1;
         position: relative;
