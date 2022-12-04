@@ -170,10 +170,7 @@ After I changed it to z-index 2 it worked perfectly.
 
 - After deployment the images did not show on the live website. As it worked in Gitpod I could not understand what was wrong. After some reserach I found this page on [Stackoverflow](https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages), and after I removed a forward slash from the start of the filepath the images finally worked.
 
-- For screen sizes between 600px-768px the empty space between the bottom of a castle and the top for the following castles differed. It was something that didnt work with the position value for the image and castle text. After alot of testing in Google Developer Tools, I finally got it to work by unset the value for dispaly: flow root, unset postion absolute from the image and for the castle text.  
- 
-
-Unfixed bugs
+- For screen sizes between 600px-768px the empty space between the bottom of a castle and the top for the following castles differed. It was something that did not work with the position value for the image and castle text. After alot of testing in Google Developer Tools, I finally got it to work by unset the value for display: flow root, unset postion absolute from the image and for the castle text.  
 
 ## Deployment
 
@@ -186,13 +183,15 @@ The project has been deployed to GitHub pages taking the following steps:
 
 The live link: https://moolleer.github.io/castle-guide/
 
-
 ## Credits
 - To Merve my mentor for the guidance and help.
 
 ### Content
-- Inspiration from the Love Running projects zoom effect for home page and active class for the navigation links.
-- Most of the text and inspiration about the castles are based on information from [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/) and [Slottsguiden](https://slottsguiden.info/)
+- Inspiration from Code Institutes Love Running project, the zoom effect for home page and active class for the navigation links.
+- Most of the textcontent about the castles are based on information from [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/) and [Slottsguiden](https://slottsguiden.info/)
+- Inspiration for position divs horizontally [Stackoverflow](https://stackoverflow.com/questions/11931154/how-to-position-three-divs-in-html-horizontally)
+- Guide for using flexbox [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- Code institutes template as a inspiration for the README file. 
 
 ### Media   
 The images for the castle and background are from the following websites: 
