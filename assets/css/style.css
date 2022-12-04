@@ -381,25 +381,21 @@ h4 {
 
 @media screen and (max-width: 992px) {
     .div-flex {
-        display: flow-root;
         position: relative;
         padding-bottom: 4%;
     }
 
     .castle-image-div {
         height: fit-content;
-        position: absolute;
         margin-top: 55px;
     }
 
     .castle-image-div img {
-        height: 100px;
-        width: 150px;
-        margin-top: 0;
+        margin-top: 30px;
     }
 
     .castle-website-new {
-        font-size: 55%;
+        font-size: 65%;
     }
 
     .div-flex a {
@@ -407,28 +403,30 @@ h4 {
     }
 
     .castle-text-div {
-        margin-top: 0;
-        margin-left: 20%;
-        position: absolute;
+        margin-top: 30px;
+    }
+
+    .hr-castle-new {
+        width: 90%;
     }
 
     .castle-text-new {
         padding-left: 4%;
+        font-size: 15px;
     }
 
     .castle-map-div {
         padding-right: 0;
         padding-left: 2%;
+        position: static;
     }
 
     .castle-map-div Iframe {
         height: 100px;
         width: 150px;
-        margin-top: 190px;
-    }
-
-    .castle-text-new {
-        font-size: 13px;
+        position: absolute;
+        left: 40px;
+        top: 85px;
     }
 
     .signup-form h2 {
