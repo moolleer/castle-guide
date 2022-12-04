@@ -63,15 +63,17 @@ Responsive design
 ![Castles over 768px](docs/README-images/castles-over-768px.png)
 
 - How the castle page looks on devices over 600px
-![Castles over 600x](docs/README-images/castles-over-600px.png)
+![Castles over 600x](docs/README-images/castle-over-600px.png)
+
+![Castles over 600x img 2](docs/README-images/castle-over-600px-2.png)
 
 - How the castle page looks on devices over 300px
 
-![Castles over 300x](docs/README-images/castles-over-300px.png)
+![Castles over 300x](docs/README-images/castle-over-300px.png)
 
 - How the castle page looks on devices under 300px
 
-![Castles under 300x](docs/README-images/castles-under-300px.png)
+![Castles under 300x](docs/README-images/castle-under-300px.png)
 
 Sign up
 - The page contains a form for the user to fill in if they want to have a newsletter for castles updates.
@@ -94,8 +96,9 @@ Footer
 - The icons for the social media links and logo have been taken from [FontAwesome](https://fontawesome.com/)
 
 ### Future Features
-- Make the images clickable and open up a new page for each castle with more information and history.
-- Improve the design for different screen sizes, so the alignment is more an even flow of the content. It works on the most dimensions, but theres more room for improvement.
+- Additional pages
+   - On the castle page, each castle should be clickable and lead to a new page with more content, pictures and history to provide the user with more information about the castle. 
+   - A page with a bigger Google map with the castles locations marked out to show their location in relation to each other. If users are planning on making a trip to visit several castles, this could give them a godd suggestion on how to plan their trip.
 
 ## Testing
 ### Manual testing
@@ -162,15 +165,15 @@ CSS validated by [CSS validator](https://jigsaw.w3.org/css-validator/) and no er
 
 ### Bugs and fixes
 
-- Links to the castle website in the media query for (max: width 992px) did not work. This was the only media query I used this positioning to, because I wanted the picture and map to appear left of the text. After some research I figured out it had to do with the z-index of the link thanks to this page on [Stackoverflow](https://stackoverflow.com/questions/16773989/when-div-with-absolute-position-is-added-cannot-click-on-links) 
+- Links to the castle website in the media query for (max: width 992px) did not work. After some research I figured out it had to do with the z-index of the link thanks to this page on [Stackoverflow](https://stackoverflow.com/questions/16773989/when-div-with-absolute-position-is-added-cannot-click-on-links) 
 After I changed it to z-index 2 it worked perfectly.
 
 - After deployment the images did not show on the live website. As it worked in Gitpod I could not understand what was wrong. After some reserach I found this page on [Stackoverflow](https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages), and after I removed a forward slash from the start of the filepath the images finally worked.
 
-Unfixed bugs
+- For screen sizes between 600px-768px the empty space between the bottom of a castle and the top for the following castles differed. It was something that didnt work with the position value for the image and castle text. After alot of testing in Google Developer Tools, I finally got it to work by unset the value for dispaly: flow root, unset postion absolute from the image and for the castle text.  
+ 
 
-For screen sizes between 600px-768px the empty space between the bottom and top for the following castles differs. I have tried to solve this by changing paddings, margins, positions with different values on all elements.
-I have also had some help from my mentor but the time was limited and we had to move on to other topics in our last mentoring session. This would be something I would improve for future. 
+Unfixed bugs
 
 ## Deployment
 
@@ -192,7 +195,7 @@ The live link: https://moolleer.github.io/castle-guide/
 - Most of the text and inspiration about the castles are based on information from [Swedish nomad](https://www.swedishnomad.com/sv/skanska-slott/) and [Slottsguiden](https://slottsguiden.info/)
 
 ### Media   
-The images for the castle and background are from following websites: 
+The images for the castle and background are from the following websites: 
  - [Kulturbilder](https://kulturbilder.wordpress.com/2017/09/27/trollenas-slott-eslov/)
  - [Gylleboannika](https://gylleboannika.se/tag/hovdala-slott/)
  - [Skurup](https://www.skurup.se/svaneholm)
