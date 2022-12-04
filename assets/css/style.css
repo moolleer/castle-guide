@@ -556,11 +556,11 @@ h4 {
     }
 
     #logo {
-        font-size: 180%;
+        font-size: 220%;
     }
 
     #menu li {
-        font-size: 10px;
+        font-size: 14px;
         margin: 5px;
     }
 
@@ -592,13 +592,14 @@ h4 {
 
     .castle-image-div {
         position: unset;
-        padding-left: 33%;
+        padding-left: unset;
         margin-top: 50px;
+        text-align: center;
     }
 
     .castle-image-div img {
-        height: 90px;
-        width: 140px;
+        height: 200px;
+        width: 250px;
     }
 
     .castle-map-div Iframe {
